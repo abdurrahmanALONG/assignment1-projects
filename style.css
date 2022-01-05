@@ -1,4 +1,93 @@
 body{
     margin: 0px;
     padding: 0px;
+    
+}
+.text-font{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+h3{
+    font-size: 30px;
+    font-weight: 700; 
+}
+#head-text{
+    text-align: center;
+}
+.font-for-headline{
+    font-family: 'Abril Fatface', cursive;
+    border-left: 5px solid salmon;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.inline-color{
+    color: darkorange;
+}
+.button{
+    text-decoration: none;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(236, 59, 39);
+}
+.image1{
+    
+   max-width:1200px ; 
+   height: auto;
+  
+}
+.section1{
+    display: flex;
+    margin-left:4% ;
+    margin-right:4% ;
+    padding-right:4% ;
+    padding-left: 2%;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.section2{
+    display: flex;
+    margin-bottom: 160px;
+}
+.illustr{
+    max-width:100%;
+    height:auto;
+    
+}
+.my-mission-div1{
+    padding: 5%;
+    margin: 5%;
+    background-color: wheat;
+    border: white;
+    border-radius: 10px;
+}
+.my-mission-div2{
+    padding: 5%;
+    margin: 5%;
+    background-color: wheat;
+    border: white;
+    border-radius: 10px;
+}
+.my-mission-div3{
+    padding: 5%;
+    margin: 5%;
+    background-color: wheat;
+    border: white;
+    border-radius: 10px;
+}
+.one-third-width{
+    max-width: 33.33%;
 }
