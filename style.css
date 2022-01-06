@@ -4,31 +4,28 @@ body{
     
 }
 .text-font{
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Comforter', cursive;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
    
 }
 h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 h2{
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 800;
 }
 h3{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700; 
+}
+h4{
+    font-size: 25px;
+    font-weight: 500; 
+
 }
 #head-text{
     text-align: center;
-}
-.font-for-headline{
-    font-family: 'Abril Fatface', cursive;
-    border-left: 5px solid salmon;
-    margin-left: 10px;
-    padding-left: 20px;
+    
 }
 .inline-color{
     color: darkorange;
@@ -40,54 +37,206 @@ h3{
     border-radius: 5px;
     background-color: rgb(236, 59, 39);
 }
-.image1{
-    
-   max-width:1200px ; 
-   height: auto;
-  
-}
-.section1{
-    display: flex;
-    margin-left:4% ;
-    margin-right:4% ;
-    padding-right:4% ;
-    padding-left: 2%;
-    margin-bottom: 150px;
-}
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
+
+
+
+
+/* section-1 start */
+.section1{
+    display: flex;
+    margin-left:4% ;
+    margin-right:4% ;
+    padding-right:2% ;
+    padding-left: 2%;
+    margin-bottom: 150px;
+}
+.font-for-headline{
+    font-family: 'Abril Fatface', cursive;
+    border-left: 5px solid salmon;
+    margin-left: 10px;
+    padding-left: 20px;
+  
+}
+.sect-div2{
+   padding-left: 7px;
+   
+}
+.image-1{
+    max-width:1200px ; 
+    height: auto;
+    border: none;  
+}
+/* section-1 end  */
+
+
+
+
+
+/* section-2 start */
+
 .section2{
     display: flex;
+    margin-left:4% ;
+    margin-right:4% ;
     margin-bottom: 160px;
 }
+
 .illustr{
-    max-width:100%;
+    max-width:40%;
     height:auto;
+    padding-right: 10%;
     
 }
 .my-mission-div1{
-    padding: 5%;
-    margin: 5%;
-    background-color: wheat;
+    max-width:60%;
+    height:auto;
+    padding: 3%;
+    margin: 2%;
+    background-color: rgb(230, 226, 220);
     border: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .my-mission-div2{
-    padding: 5%;
-    margin: 5%;
-    background-color: wheat;
+    max-width:60%;
+    height:auto;
+    padding: 3%;
+    margin: 2%;
+    background-color: rgb(248, 230, 197);
     border: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .my-mission-div3{
-    padding: 5%;
-    margin: 5%;
-    background-color: wheat;
+    max-width:60%;
+    height:auto;
+    padding: 3%;
+    margin: 2%;
+    background-color: rgb(250, 243, 178);
     border: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .one-third-width{
     max-width: 33.33%;
 }
+/* section-2 end  */
+
+
+
+
+/* section-3 start */
+.section3{
+    display: flex;
+    margin-left:4% ;
+    margin-right:4% ;
+    margin-bottom: 150px;
+}
+.image-2{
+    max-width:75% ; 
+    height: auto; 
+}
+.sec-3-width1{
+    width: 45%;
+   margin-left: 5%;
+}
+.sec-3-width2{
+    width: 60%;
+    height: auto;
+    
+
+}
+/* section-3 end  */
+
+
+
+/* section-4 start */
+.section4{
+    display: flex;
+    margin-left:4% ;
+    margin-right:2% ;
+    margin-bottom: 150px;
+}
+.image-3{
+    max-width:80% ; 
+    height: auto;
+}
+.sec-4-width1{
+    width: 55%;
+    margin-left: 5%; 
+}
+.sec-4-width2{
+    width: 45%;
+    margin-left: 10%;
+    
+}
+/* section-4 end  */
+
+
+
+/* section-5 start */
+.section5{
+    display: flex;
+    margin-right:4% ;
+    padding-right:2% ;
+    margin-bottom: 150px;
+}
+#text-aling{
+    text-align: center;
+}
+
+.image-4{
+    max-width:450px ; 
+    height: 500px; 
+    border: none solid;
+    border-radius: 10%;
+
+}
+.sec-5-width1{
+    width: 40%;
+    margin-left: 10%;
+}
+.sec-5-width2{
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+/* section-5 end  */
+
+
+/* footer-start */
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 1%;
+   
+    
+}
+#footer-text1{
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+#footer-text2{
+    color: rgb(236, 59, 39);
+    font-family: 'Lobster', cursive;
+}
+#footer-text3{
+    color: rgb(158, 150, 134);
+    }
+
+
+/* footer-end */
+
+
+
+
+
+
+
+
+
+
+
+
