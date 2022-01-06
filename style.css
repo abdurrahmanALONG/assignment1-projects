@@ -3,6 +3,7 @@ body{
     padding: 0px;
     
 }
+/* common style start */
 .text-font{
     font-family: 'Poppins', sans-serif;
    
@@ -23,7 +24,7 @@ h4{
     font-weight: 500; 
 
 }
-#head-text{
+.head-text{
     text-align: center;
     
 }
@@ -35,17 +36,18 @@ h4{
     color:white;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: rgb(236, 59, 39);
+    background-color: rgb(236, 85, 39);
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
+/* common style end */
 
 
 
 
-/* section-1 start */
+/* section-1-style start */
 .section1{
     display: flex;
     margin-left:4% ;
@@ -70,13 +72,13 @@ h4{
     height: auto;
     border: none;  
 }
-/* section-1 end  */
+/* section-1-style end  */
 
 
 
 
 
-/* section-2 start */
+/* section-2-style start */
 
 .section2{
     display: flex;
@@ -92,41 +94,45 @@ h4{
     
 }
 .my-mission-div1{
-    max-width:60%;
+    max-width:100%;
     height:auto;
-    padding: 3%;
-    margin: 2%;
+    padding: 2%;
+    margin-right: 30px;
+    margin-left: 50px;
     background-color: rgb(230, 226, 220);
     border: white;
     border-radius: 20px;
 }
 .my-mission-div2{
-    max-width:60%;
+    max-width:100px;
     height:auto;
-    padding: 3%;
-    margin: 2%;
+    padding: 2%;
     background-color: rgb(248, 230, 197);
     border: white;
     border-radius: 20px;
 }
 .my-mission-div3{
-    max-width:60%;
+    max-width:100%;
     height:auto;
-    padding: 3%;
-    margin: 2%;
+    padding: 2%;
+    margin-left: 30px;
+    margin-right: 50px;
     background-color: rgb(250, 243, 178);
     border: white;
     border-radius: 20px;
 }
 .one-third-width{
-    max-width: 33.33%;
+    max-width:33.33%;
+    height: auto;
+    
+
 }
-/* section-2 end  */
+/* section-2-style end  */
 
 
 
 
-/* section-3 start */
+/* section-3-style start */
 .section3{
     display: flex;
     margin-left:4% ;
@@ -147,11 +153,11 @@ h4{
     
 
 }
-/* section-3 end  */
+/* section-3-style end  */
 
 
 
-/* section-4 start */
+/* section-4-style start */
 .section4{
     display: flex;
     margin-left:4% ;
@@ -171,11 +177,11 @@ h4{
     margin-left: 10%;
     
 }
-/* section-4 end  */
+/* section-4-style end  */
 
 
 
-/* section-5 start */
+/* section-5-style start */
 .section5{
     display: flex;
     margin-right:4% ;
@@ -203,10 +209,10 @@ h4{
     padding-top: 5%;
 }
 
-/* section-5 end  */
+/* section-5-style end  */
 
 
-/* footer-start */
+/* footer-style start */
 .footer{
     text-align: center;
     background-color: black;
@@ -224,10 +230,8 @@ h4{
 }
 #footer-text3{
     color: rgb(158, 150, 134);
-    }
-
-
-/* footer-end */
+}
+/* footer-style end */
 
 
 
